@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        const loadTime =
+          performance.timing.domContentLoadedEventEnd -
+          performance.timing.navigationStart;
+        document.getElementById("loadTime").textContent = loadTime;
+      });
+    </script>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+
+  <body class="p-8 bg-slate-200 space-y-4 text-lg">
+    <h1 class="text-3xl font-bold">Chase Rensberger</h1>
+    <h2 class="text-2xl font-semibold">Links</h2>
+    <div class="text-xl">
+      <a
+        href="https://github.com/ChaseRensberger"
+        class="text-blue-500 underline"
+        >GitHub</a
+      >
+      /
+      <a
+        href="https://www.linkedin.com/in/chaserensberger/"
+        class="text-blue-500 underline"
+        >LinkedIn</a
+      >
+      /
+      <a
+        href="https://exposed-documents.s3.amazonaws.com/resume.pdf"
+        class="text-blue-500 underline"
+        >Resume</a
+      >
+    </div>
+    <section>
+      <h2 class="text-2xl font-semibold">About</h2>
+      <p>
+        I am a software engineer from the east coast of the United States. This
+        site is hosted on on raspberry pi in my home office and took
+        <span id="loadTime"></span> milliseconds to reach you.
+      </p>
+    </section>
+    <h2 class="text-2xl font-semibold">Stuff I am working on</h2>
+    <ol>
+      <li>
+        <a
+          href="git@github.com:ChaseRensberger/calib_challenge.git"
+          class="text-blue-500 underline"
+          >Dash Camera Calibration</a
+        >
+        <p>
+          Wrote a from scratch lane detection algorithm to evaluate pitch and
+          yaw offset of a dash camera’s direction relative to the vehicle’s
+          motion vector
+        </p>
+      </li>
+    </ol>
+    <h2 class="text-2xl font-semibold">Stuff I haven't worked on in a while</h2>
+  </body>
+</html>
