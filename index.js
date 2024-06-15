@@ -1,7 +1,8 @@
+const loadTimeStart = performance.now();
+
 document.addEventListener("DOMContentLoaded", function (event) {
-  const loadTime =
-    performance.timing.domContentLoadedEventEnd -
-    performance.timing.navigationStart;
+  const loadTimeEnd = performance.now();
+  const loadTime = Math.round(loadTimeEnd - loadTimeStart);
   document.getElementById("loadTime").textContent = loadTime;
 });
 
