@@ -20,13 +20,22 @@ func main() {
 	e := echo.New()
 
 	t := &Template{
-		templates: template.Must(template.ParseGlob("*.html")),
+		templates: template.Must(template.ParseGlob("templates/*.html")),
 	}
 
 	e.Renderer = t
 
 	e.GET("/", func(c echo.Context) error {
 		return c.Render(http.StatusOK, "index.html", nil)
+	})
+
+	e.GET("/blog", func(c echo.Context) error {
+		return c.Render(http.StatusOK, "blog.html", nil)
+	})
+
+	e.GET("/blog/:postId", func(c echo.Context) error {
+		postId := c.Param("postId")
+		return c.Render(http.StatusOK, "blog.html", postId)
 	})
 
 	e.Static("/", ".")
