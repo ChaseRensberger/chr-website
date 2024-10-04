@@ -29,14 +29,15 @@ func main() {
 		return c.Render(http.StatusOK, "index.html", nil)
 	})
 
-	e.GET("/blog", func(c echo.Context) error {
-		return c.Render(http.StatusOK, "blog.html", nil)
-	})
-
-	e.GET("/blog/:postId", func(c echo.Context) error {
-		postId := c.Param("postId")
-		return c.Render(http.StatusOK, "blog.html", postId)
-	})
+	// Maybe the blog will exist in the future but for now it is seperate
+	// e.GET("/blog", func(c echo.Context) error {
+	// 	return c.Render(http.StatusOK, "blog.html", nil)
+	// })
+	//
+	// e.GET("/blog/:postId", func(c echo.Context) error {
+	// 	postId := c.Param("postId")
+	// 	return c.Render(http.StatusOK, "blog.html", postId)
+	// })
 
 	e.Static("/", ".")
 
