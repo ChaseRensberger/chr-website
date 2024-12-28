@@ -15,9 +15,9 @@ import (
 )
 
 type BlogPost struct {
-	Title string
-	Slug  string
-	Content template.HTML
+	Title     string
+	Slug      string
+	Content   template.HTML
 	CreatedAt time.Time
 }
 
@@ -81,16 +81,12 @@ func main() {
 	e.Renderer = t
 
 	e.GET("/", func(c echo.Context) error {
-		return c.Render(http.StatusOK, "index.html", nil)
+		posts, err := loadBlogPosts()
+		if err != nil {
+			return err
+		}
+		return c.Render(http.StatusOK, "index.html", posts)
 	})
-
-	// e.GET("/blog", func(c echo.Context) error {
-	// 	posts, err := loadBlogPosts()
-	// 	if err != nil {
-	// 		return err
-	// 	}
-	// 	return c.Render(http.StatusOK, "blog-list.html", posts)
-	// })
 
 	e.GET("/blog/:slug", func(c echo.Context) error {
 		slug := c.Param("slug")

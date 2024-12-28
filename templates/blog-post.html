@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,14 +12,41 @@
   <body
     class="p-8 bg-neutral-100 dark:bg-neutral-800 space-y-4 text-lg text-black dark:text-white"
   >
-    <article class="max-w-3xl mx-auto space-y-6">
-      <header class="space-y-4">
-        <h1 class="text-4xl font-bold">{{.Title}}</h1>
-        <time class="text-sm text-neutral-600 dark:text-neutral-400">
-          {{.CreatedAt.Format "January 2, 2006"}}
-        </time>
-      </header>
-      <div class="prose dark:prose-invert">{{.Content}}</div>
+    <header class="space-y-2">
+      <div class="flex gap-4 items-center">
+        <!-- TODO: Get perfect alignment -->
+        <h1 class="text-3xl font-bold"><a href="/">chase rensberger</a></h1>
+        <img
+          src="../assets/moon.svg"
+          alt="Moon icon"
+          onclick="toggleDarkMode()"
+          id="themeSwitcherIcon"
+          class="w-6 h-6 filter dark:invert"
+        />
+      </div>
+      <div>
+        <a
+          href="https://github.com/ChaseRensberger"
+          class="text-blue-500 underline"
+          >github</a
+        >
+        /
+        <a
+          href="https://www.linkedin.com/in/chaserensberger/"
+          class="text-blue-500 underline"
+          >linkedin</a
+        >
+        /
+        <a
+          href="https://exposed-documents.s3.amazonaws.com/resume.pdf"
+          class="text-blue-500 underline"
+          >resume</a
+        >
+      </div>
+    </header>
+
+    <article class="max-w-3xl mx-auto space-y-6 prose dark:prose-invert">
+      {{.Content}}
     </article>
   </body>
 </html>

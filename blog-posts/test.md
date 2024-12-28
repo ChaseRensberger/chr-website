@@ -8,4 +8,13 @@ This is my first blog post. You can use **markdown** formatting here.
 - List item 2
 - List item 3
 
-[Link to something cool](https://example.com)
+[My website](https://chaserensberger.com)
+
+## Code
+
+```js
+console.log("Hello, world!");
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+```

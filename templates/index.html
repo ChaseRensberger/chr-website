@@ -13,10 +13,10 @@
   <body
     class="p-8 bg-neutral-100 dark:bg-neutral-800 space-y-4 text-lg text-black dark:text-white"
   >
-    <section class="space-y-2">
+    <header class="space-y-2">
       <div class="flex gap-4 items-center">
         <!-- TODO: Get perfect alignment -->
-        <h1 class="text-3xl font-bold">chase rensberger</h1>
+        <h1 class="text-3xl font-bold"><a href="/">chase rensberger</a></h1>
         <img
           src="../assets/moon.svg"
           alt="Moon icon"
@@ -44,7 +44,7 @@
           >resume</a
         >
       </div>
-    </section>
+    </header>
 
     <section class="space-y-2">
       <h2 class="text-2xl font-semibold">about</h2>
@@ -56,6 +56,20 @@
         to reach you.
       </p>
     </section>
+
+    <section class="space-y-2">
+      <h2 class="text-2xl font-semibold">blog</h2>
+      <ol>
+        {{range .}}
+        <li>
+          <a href="/blog/{{.Slug}}" class="text-blue-500 underline"
+            >{{.Title}}</a
+          >
+        </li>
+        {{end}}
+      </ol>
+    </section>
+
     <section class="space-y-2">
       <h2 class="text-2xl font-semibold">stuff I am working on</h2>
       <ol>
@@ -70,8 +84,6 @@
             working on.
           </p>
         </li>
-      </ol>
-      <ol>
         <li>
           <a
             href="https://github.com/ChaseRensberger/youtube-banner-updater"
@@ -81,9 +93,7 @@
           <p>
             dyanmically update your youtube banner with custom data. system is
             currently live
-            <a
-              href="https://www.youtube.com/@Lukejtv"
-              class="text-blue-500"
+            <a href="https://www.youtube.com/@Lukejtv" class="text-blue-500"
               >here</a
             >
           </p>
