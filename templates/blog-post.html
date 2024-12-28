@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{.Title}} - Chase Rensberger</title>
+    <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+    <script src="../javascript/index.js"></script>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/output.css" />
+  </head>
+  <body
+    class="p-8 bg-neutral-100 dark:bg-neutral-800 space-y-4 text-lg text-black dark:text-white"
+  >
+    <article class="max-w-3xl mx-auto space-y-6">
+      <header class="space-y-4">
+        <h1 class="text-4xl font-bold">{{.Title}}</h1>
+        <time class="text-sm text-neutral-600 dark:text-neutral-400">
+          {{.CreatedAt.Format "January 2, 2006"}}
+        </time>
+      </header>
+      <div class="prose dark:prose-invert">{{.Content}}</div>
+    </article>
+  </body>
+</html>
