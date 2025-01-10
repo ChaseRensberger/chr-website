@@ -52,7 +52,7 @@ func loadBlogPosts() ([]BlogPost, error) {
 				}
 			}
 
-			slug := strings.TrimSuffix(file.Name(), ".md")
+			slug := strings.ReplaceAll(strings.TrimSuffix(file.Name(), ".md"), " ", "-")
 			html := markdown.ToHTML(content, nil, nil)
 
 			posts = append(posts, BlogPost{
@@ -104,7 +104,9 @@ func main() {
 		return echo.NewHTTPError(http.StatusNotFound, "Blog post not found")
 	})
 
-	e.Static("/", ".")
+	e.Static("/assets", "assets")
+	e.Static("/javascript", "javascript")
+	e.Static("/styles", "styles")
 
 	e.Logger.Fatal(e.Start(":1323"))
 }

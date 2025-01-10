@@ -1,13 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{.Title}} - Chase Rensberger</title>
     <script src="https://unpkg.com/htmx.org@1.9.12"></script>
-    <script src="../javascript/index.js"></script>
-    <link rel="stylesheet" href="../styles/index.css" />
-    <link rel="stylesheet" href="../styles/output.css" />
+    <script src="/javascript/index.js"></script>
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/output.css" />
   </head>
   <body
     class="p-8 bg-neutral-100 dark:bg-neutral-800 space-y-4 text-lg text-black dark:text-white"
@@ -17,7 +17,7 @@
         <!-- TODO: Get perfect alignment -->
         <h1 class="text-3xl font-bold"><a href="/">chase rensberger</a></h1>
         <img
-          src="../assets/moon.svg"
+          src="/assets/moon.svg"
           alt="Moon icon"
           onclick="toggleDarkMode()"
           id="themeSwitcherIcon"
@@ -36,16 +36,10 @@
           class="text-blue-500 underline"
           >linkedin</a
         >
-        /
-        <a
-          href="https://exposed-documents.s3.amazonaws.com/resume.pdf"
-          class="text-blue-500 underline"
-          >resume</a
-        >
       </div>
     </header>
 
-    <article class="max-w-3xl mx-auto space-y-6 prose dark:prose-invert">
+    <article class="max-w-4xl mx-auto space-y-6 prose dark:prose-invert">
       {{.Content}}
     </article>
   </body>
