@@ -1,12 +1,12 @@
 # Reflections on 1 Year of (Trying To) Become Successful on YouTube
 
-*January 10th, 2025*
+_January 10th, 2025_
 
 In 2024, my friend and I [started making YouTube videos](https://youtube.com/lukejtv). This article is just some housekeeping I’m doing to keep track of progress for this channel. I hope that some people find it valuable. I offer some advice in this article, but everything should be taken with a grain of salt, as we are not (hopefully yet) a successful channel. If you’re interested in getting in touch, there is contact information at the end of the article.
 
 ## Who are we?
 
-We are just a couple of friends trying to have fun and create content that people enjoy. More specifically, though, Luke is the only one of us who does this full-time. After quitting his job at Apple (and then briefly unquitting to work at MrBeast before quitting again), he decided he wanted to stop creating so much content for others and really give solo video development a try. He is the face of the channel and undoubtedly the one who works the hardest to make it successful. As for me, I am a software engineer and amateur data scientist who enjoys making and doing cool stuff. 
+We are just a couple of friends trying to have fun and create content that people enjoy. More specifically, though, Luke is the only one of us who does this full-time. After quitting his job at Apple (and then briefly unquitting to work at MrBeast before quitting again), he decided he wanted to stop creating so much content for others and really give solo video development a try. He is the face of the channel and undoubtedly the one who works the hardest to make it successful. As for me, I am a software engineer and amateur data scientist who enjoys making and doing cool stuff.
 
 ## The videos we have made so far
 
@@ -53,7 +53,7 @@ One of the frustrating things about this is that, coincidentally, some other peo
 
 ### [I Spent A Day In 3rd Person!](https://www.youtube.com/watch?v=3GAAIKDUMLg)
 
-This video has had quite a comeback. It originally started with the title **Day In The Life Of A Drone** and was supposed to revolve around Luke flying a drone, attempting to complete everyday tasks (somehow, we thought that was a really good idea at the time). Eventually, it morphed into its current iteration when we realized the idea of doing things from the *perspective* of a flying camera was way cooler. Initially, the video performed poorly but gained traction after a portion of it was posted by [Daily Dose of Gaming](https://www.youtube.com/shorts/dO0mDIOfGZ4).
+This video has had quite a comeback. It originally started with the title **Day In The Life Of A Drone** and was supposed to revolve around Luke flying a drone, attempting to complete everyday tasks (somehow, we thought that was a really good idea at the time). Eventually, it morphed into its current iteration when we realized the idea of doing things from the _perspective_ of a flying camera was way cooler. Initially, the video performed poorly but gained traction after a portion of it was posted by [Daily Dose of Gaming](https://www.youtube.com/shorts/dO0mDIOfGZ4).
 
 One of our only regrets with this video is not adding a little indicator on the screen every time a shot was from the drone. We thought it was pretty clear during the editing process, but some initial feedback after release suggested we may have been overly optimistic.
 
@@ -73,7 +73,7 @@ This is our most successful video to date. In many respects, we’re often just 
 
 We felt like this video really hit all three. I chose one of the cheapest flights I could find, Luke and I almost always enjoy traveling (especially for a video), and it performed significantly better than any other video we’ve made thus far. We felt like we took a concept that had been done before and improved on it; I don’t believe anyone has actually been flown somewhere blindfolded for a GeoGuessr YouTube video (sorry to the lady scanning our boarding passes—she was definitely very confused by Luke’s situation).
 
-![Luke in an airport](https://chaserensberger.com/assets/lukej-blind.png)
+![Luke in an airport](https://chaserensberger.com/assets/luke-blind.png)
 
 The video was also relatively quick to make—filming only took a single day, and we got to explore Providence, Rhode Island, which neither of us had visited before.
 
@@ -112,7 +112,7 @@ Hopefully, the graphic provides a relatively adequate explanation for each step.
 
 ## How we decide what's next
 
-This process has fluctuated quite a bit. We started by mostly just word dumping a bunch of ideas into a shared note and then whittling them down to a select few. We noticed, though, that this led to a bunch of ideas we weren’t super excited about, and most of our best ideas came about when we were just hanging out and casually talking about videos. Trying to rely solely on the latter, however, meant we weren’t generating good ideas fast enough. We recently settled on something we call *Title Tournament*. Once a week, we both pitch eight video ideas and put them through a bracket, where we vote on the winners of each round. This method has allowed us to have fun with the ideation process while also raising the standard of our pitches.
+This process has fluctuated quite a bit. We started by mostly just word dumping a bunch of ideas into a shared note and then whittling them down to a select few. We noticed, though, that this led to a bunch of ideas we weren’t super excited about, and most of our best ideas came about when we were just hanging out and casually talking about videos. Trying to rely solely on the latter, however, meant we weren’t generating good ideas fast enough. We recently settled on something we call _Title Tournament_. Once a week, we both pitch eight video ideas and put them through a bracket, where we vote on the winners of each round. This method has allowed us to have fun with the ideation process while also raising the standard of our pitches.
 
 We also use various tools to help out; a lot of ideas come from just browsing and discussing other videos on the platform that we like and figuring out how we can put our own spin on them. All this to say, we have no shortage of ideas we’re pursuing at the moment, and we hope that the next year will allow us to produce a ton of high-quality videos.
 
