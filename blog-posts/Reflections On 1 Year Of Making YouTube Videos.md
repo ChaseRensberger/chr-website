@@ -27,7 +27,7 @@ After this, we decided that we wanted to pad the video with a few other fun acti
 3. [A Ropes Course](https://www.goape.com) (somebody that worked here gave me their email and asked if I could send some of the footage we got - I immediately lost this card and if you're reading this I am very sorry)
 4. Dinner at a restaurant
 5. Biking
-6. Watching a sunset (and comparing it to the sunet enviroment inside the headset)
+6. Watching a sunset (and comparing it to the sunset environment inside the headset)
 
 Overall, the video is still one of my favorites we’ve made. It didn’t perform quite as well as I hoped, but looking back, it could have gone way worse.
 
