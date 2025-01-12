@@ -1,4 +1,4 @@
-# Reflections on 1 Year of Trying To Become Successful on YouTube
+# Reflections on 1 Year of Trying to Become Successful on YouTube
 
 _January 10th, 2025_
 
